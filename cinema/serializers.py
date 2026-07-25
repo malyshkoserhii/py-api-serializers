@@ -100,6 +100,7 @@ class MovieSessionListSerializer(MovieSessionSerializer):
         model = MovieSession
         fields = (
             "id",
+            "show_time",
             "movie_title",
             "cinema_hall_name",
             "cinema_hall_capacity"
